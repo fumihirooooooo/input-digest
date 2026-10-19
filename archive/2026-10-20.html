@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>input-digest 2026-10-20</title>
+<style>
+:root{color-scheme:light dark}
+body{font-family:system-ui,-apple-system,"Hiragino Sans",sans-serif;line-height:1.8;
+  margin:0 auto;max-width:44em;padding:24px 16px 64px;word-break:break-word}
+h1{font-size:20px;margin:0 0 4px}
+h2{font-size:16px;margin:32px 0 8px;padding-bottom:4px;border-bottom:1px solid #ccc}
+h3{font-size:15px;margin:20px 0 4px}
+article{margin-bottom:20px}
+a{overflow-wrap:anywhere}
+.notice,.status{font-size:12.5px;color:#666}
+.notice{margin-bottom:24px}
+.status{margin-top:40px;padding-top:12px;border-top:1px solid #ccc}
+.src{font-size:12px;color:#666;margin:2px 0 0}
+.none{margin:24px 0}
+.new{font-weight:600}
+.nav{font-size:13px;margin:0 0 8px}
+</style></head><body>
+
+<p class="nav"><a href="/input-digest/archive/">過去のダイジェスト一覧</a></p>
+<h1>input-digest 2026-10-20</h1>
+<p class="notice">個人の情報収集ログです。各項目の権利は原著者に帰属します。要約は自動生成であり、原文とあわせてご確認ください。</p>
+
+<main>
+<p class="new">新出ツール（辞書未登録）: KiviDB / Redis / Dragonfly / Garnet / tokio_uring / tokio / memtier-benchmark / Google reCAPTCHA v3 / Google Business Profile / Ads Manager / headroom / 3 &amp; Done / evernote / todoist / asana / google keep / OmniPlan / WhatsApp MCP / WhatsApp Business / Baileys</p>
+<h2>技術・ツール（6件）</h2><article><h3><a href="https://github.com/kividbio/kividb" rel="noopener nofollow">Show HN: KiviDB, a faster Redis-compatible memory database and vector cache</a></h3><p>Rust 製の Redis 互換インメモリ DB 兼ベクタキャッシュ。キー空間をスレッドごとに分割し、io_uring で処理する。パイプライン GET で 21.2M ops/sec。AGPLv3。</p><p class="src">show_hn — <a href="https://github.com/kividbio/kividb" rel="noopener nofollow">https://github.com/kividbio/kividb</a></p></article><article><h3><a href="https://github.com/headroomlabs-ai/headroom" rel="noopener nofollow">headroomlabs-ai/headroom</a></h3><p>ツール出力・ログ・ファイル・RAG チャンクを LLM に渡す前に圧縮する OSS。コーディングエージェントでトークン 20% 減、JSON で 60〜95% 減、回答は同じ。ライブラリ・プロキシ・MCP サーバーとして提供。</p><p class="src">github_trending — <a href="https://github.com/headroomlabs-ai/headroom" rel="noopener nofollow">https://github.com/headroomlabs-ai/headroom</a></p></article><article><h3><a href="https://zenn.dev/mint69/articles/31f72b57a0206e" rel="noopener nofollow">【個人開発】AIに社外秘や個人情報を貼る前にブラウザ内で仮名化、AIの回答を1クリックで元の名前に復元するツールを作った（通信ゼロ・無料）</a></h3><p>AIに社外秘や個人情報を貼る前にブラウザ内で仮名化し、AIの回答を1クリックで元の名前に復元する個人開発ツール。APIキーや社名・氏名の手作業での置換と書き戻しを不要にする。通信ゼロ・無料。</p><p class="src">zenn — <a href="https://zenn.dev/mint69/articles/31f72b57a0206e" rel="noopener nofollow">https://zenn.dev/mint69/articles/31f72b57a0206e</a></p></article><article><h3><a href="https://3anddoneapp.com/try" rel="noopener nofollow">Show HN: I built a task system to handle the drudgery so I could focus on tasks</a></h3><p>音声やテキストで登録したタスクから、期限・緊急度・放置期間をもとにその日やるべき3件を理由付きで毎朝メールするタスク管理アプリ 3 &amp; Done。14日間無料、以降年99ドル。</p><p class="src">show_hn — <a href="https://3anddoneapp.com/try" rel="noopener nofollow">https://3anddoneapp.com/try</a></p></article><article><h3><a href="https://github.com/finereli/whatsapp-mcp" rel="noopener nofollow">Show HN: WhatsApp MCP running free on Cloudflare</a></h3><p>Cloudflare 上で無料で動く WhatsApp 用 MCP サーバー。個人アカウントで使え、Google 連絡先から名前を補完する。単一ユーザー向け。</p><p class="src">show_hn — <a href="https://github.com/finereli/whatsapp-mcp" rel="noopener nofollow">https://github.com/finereli/whatsapp-mcp</a></p></article><article><h3><a href="https://zenn.dev/bpr_prot/articles/2d44d11a4b96c8" rel="noopener nofollow">Linuxの生みの親もClaude Codeを使う時代。点検を「ローリング」にしたくて、MCPをつないだだけでは0回だった</a></h3><p>Linus Torvalds氏がカーネル改善にClaude Codeを使ったことを受け、AI開発でも点検を変更ごとに回す「ローリング」化を提案。MCPを接続しただけでは点検は0回だった。</p><p class="src">zenn — <a href="https://zenn.dev/bpr_prot/articles/2d44d11a4b96c8" rel="noopener nofollow">https://zenn.dev/bpr_prot/articles/2d44d11a4b96c8</a></p></article><h2>ビジネス・事例（4件）</h2><article><h3><a href="https://webtan.impress.co.jp/e/2026/10/19/53470" rel="noopener nofollow">AI時代、「PV数・クリック数」目当てのSEO予算は通らない！？ 上司が納得する3つの指標とは【1週間まとめ】</a></h3><p>Web担当者Forumの10/10〜10/16週まとめ。露出段階から3種の指標と3つの予算配分でSEO予算を管理する記事など、解説5本とニュース5本、セミナー情報を紹介。</p><p class="src">webtan — <a href="https://webtan.impress.co.jp/e/2026/10/19/53470" rel="noopener nofollow">https://webtan.impress.co.jp/e/2026/10/19/53470</a></p></article><article><h3><a href="https://webtan.impress.co.jp/n/2026/10/19/53467" rel="noopener nofollow">ノーコードWeb制作「Studio」が不正アクセスで全顧客情報流出の可能性、パスワード変更など要請</a></h3><p>ノーコードWeb制作サービス Studio がクラウド環境への不正アクセスで全顧客情報が流出した可能性を発表。経路は遮断済みで、利用者にパスワード変更などを求めている。</p><p class="src">webtan — <a href="https://webtan.impress.co.jp/n/2026/10/19/53467" rel="noopener nofollow">https://webtan.impress.co.jp/n/2026/10/19/53467</a></p></article><article><h3><a href="https://www.reddit.com/r/Entrepreneur/comments/1x9uh5m/how_helped_scale_a_travel_agency_from_3000_to/" rel="noopener nofollow">How helped scale a travel agency from $3,000 to $20,000 in monthly profits within 6 months</a></h3><p>2人体制の旅行代理店の月利益を半年で$3千から$2万に伸ばした事例。返信とフォローの仕組み化、高単価パッケージへの転換、出発地起点のSEO、広告の再設計を順に実施した。</p><p class="src">reddit_entrepreneur — <a href="https://www.reddit.com/r/Entrepreneur/comments/1x9uh5m/how_helped_scale_a_travel_agency_from_3000_to/" rel="noopener nofollow">https://www.reddit.com/r/Entrepreneur/comments/1x9uh5m/how_helped_scale_a_travel_agency_from_3000_to/</a></p></article><article><h3><a href="https://webtan.impress.co.jp/e/2026/10/19/53447" rel="noopener nofollow">AIで自社ブランドを引用してもらうには？ 押さえておきたい3つのステップ</a></h3><p>AI回答で自社ブランドを引用させる手法の解説。重視するプロンプトを決め、ChatGPT等の引用元をスプレッドシートで分析し、記事の執筆者にメンションを依頼する。リンクより文脈を重視する。</p><p class="src">webtan — <a href="https://webtan.impress.co.jp/e/2026/10/19/53447" rel="noopener nofollow">https://webtan.impress.co.jp/e/2026/10/19/53447</a></p></article>
+</main>
+
+<section class="status">
+<p>取得状態 — 走査 386件 / 採用 10件</p>
+<p>すべてのソースから取得できました。</p>
+</section>
+
+</body></html>
