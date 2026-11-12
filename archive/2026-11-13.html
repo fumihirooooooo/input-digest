@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>input-digest 2026-11-13</title>
+<style>
+:root{color-scheme:light dark}
+body{font-family:system-ui,-apple-system,"Hiragino Sans",sans-serif;line-height:1.8;
+  margin:0 auto;max-width:44em;padding:24px 16px 64px;word-break:break-word}
+h1{font-size:20px;margin:0 0 4px}
+h2{font-size:16px;margin:32px 0 8px;padding-bottom:4px;border-bottom:1px solid #ccc}
+h3{font-size:15px;margin:20px 0 4px}
+article{margin-bottom:20px}
+a{overflow-wrap:anywhere}
+.notice,.status{font-size:12.5px;color:#666}
+.notice{margin-bottom:24px}
+.status{margin-top:40px;padding-top:12px;border-top:1px solid #ccc}
+.src{font-size:12px;color:#666;margin:2px 0 0}
+.none{margin:24px 0}
+.new{font-weight:600}
+.nav{font-size:13px;margin:0 0 8px}
+</style></head><body>
+
+<p class="nav"><a href="/input-digest/archive/">過去のダイジェスト一覧</a></p>
+<h1>input-digest 2026-11-13</h1>
+<p class="notice">個人の情報収集ログです。各項目の権利は原著者に帰属します。要約は自動生成であり、原文とあわせてご確認ください。</p>
+
+<main>
+<p class="new">新出ツール（辞書未登録）: PULSEBOUND / teardown / claude-animated-shorts / astryx / Foxpit / AWS Emulator / LibreCorsa / R2</p>
+<h2>技術・ツール（8件）</h2><article><h3><a href="https://zenn.dev/chukidx_dev/articles/claude-md-user-and-repo-split" rel="noopener nofollow">CLAUDE.md をユーザー共通とリポジトリごとに分けて運用している話 — 何をどちらに書くか</a></h3><p>Claude Code の CLAUDE.md をユーザー共通とリポジトリごとに分けて運用する方法。何をどちらに書くかの判断軸と具体例、読み込まれている指示の確認手順を示す。</p><p class="src">zenn — <a href="https://zenn.dev/chukidx_dev/articles/claude-md-user-and-repo-split" rel="noopener nofollow">https://zenn.dev/chukidx_dev/articles/claude-md-user-and-repo-split</a></p></article><article><h3><a href="https://zenn.dev/joemike/articles/claude-code-fork-subagent-guide-2026" rel="noopener nofollow">Claude Code fork() の使いどき — 並列エージェント設計の判断基準</a></h3><p>Claude Code でサブエージェントを並列実行する際の fork() と fresh agent の使い分けの判断基準。fork() は親のコンテキストを引き継ぎキャッシュを共有するため、親の文脈が必要で子の出力を戻したくないときに使い、それ以外は fresh agent を使う。</p><p class="src">zenn — <a href="https://zenn.dev/joemike/articles/claude-code-fork-subagent-guide-2026" rel="noopener nofollow">https://zenn.dev/joemike/articles/claude-code-fork-subagent-guide-2026</a></p></article><article><h3><a href="https://zenn.dev/hakumaigenki/articles/cloud-agent-freetier-ceiling-1112" rel="noopener nofollow">「全社のクラウドエージェント基盤」を読んで、個人で同じ構成を真似たら無料枠の天井に3つ同時に当たった話</a></h3><p>Ubie の全社クラウドエージェント基盤の記事を受け、ジョブキュー・承認フロー・定期実行・監視の同じ構成を個人の事務自動化で無料枠に組んだところ、無料枠の上限に3つ同時に当たった話。</p><p class="src">zenn — <a href="https://zenn.dev/hakumaigenki/articles/cloud-agent-freetier-ceiling-1112" rel="noopener nofollow">https://zenn.dev/hakumaigenki/articles/cloud-agent-freetier-ceiling-1112</a></p></article><article><h3><a href="https://github.com/elvarofficial/teardown" rel="noopener nofollow">elvarofficial/teardown</a></h3><p>任意の機械を分解できる 3D シミュレーターに変える Claude Code 用スキル。JavaScript 製で、スター数は 3306。</p><p class="src">github — <a href="https://github.com/elvarofficial/teardown" rel="noopener nofollow">https://github.com/elvarofficial/teardown</a></p></article><article><h3><a href="https://github.com/mromidev/claude-animated-shorts" rel="noopener nofollow">mromidev/claude-animated-shorts</a></h3><p>2D キャラクターを 3D 空間に配置したアニメーションのストーリー系ショート動画を作る無料の Claude スキル。three.js と Remotion を使用。TypeScript 製。</p><p class="src">github — <a href="https://github.com/mromidev/claude-animated-shorts" rel="noopener nofollow">https://github.com/mromidev/claude-animated-shorts</a></p></article><article><h3><a href="https://github.com/meta/astryx" rel="noopener nofollow">meta/astryx</a></h3><p>完全にカスタマイズ可能で、エージェントにも対応する OSS のデザインシステム。TypeScript 製。スター 26343、今日 +1789。</p><p class="src">github_trending — <a href="https://github.com/meta/astryx" rel="noopener nofollow">https://github.com/meta/astryx</a></p></article><article><h3><a href="https://www.producthunt.com/products/foxpit" rel="noopener nofollow">Foxpit</a></h3><p>Claude Code、Codex、OpenCode を一つの AI チームとして動かすツール。Product Hunt で公開。</p><p class="src">product_hunt — <a href="https://www.producthunt.com/products/foxpit" rel="noopener nofollow">https://www.producthunt.com/products/foxpit</a></p></article><article><h3><a href="https://dev.classmethod.jp/articles/20261112-aws-emulator/" rel="noopener nofollow">[&amp;#x65B0;&amp;#x30B5;&amp;#x30FC;&amp;#x30D3;&amp;#x30B9;] AWS Emulator &amp;#x767A;&amp;#x8868;&amp;#xFF01;&amp;#x5B9F; AWS &amp;#x3068;&amp;#x6BD4;&amp;#x3079;&amp;#x3001;Claude Code &amp;#x306B;&amp;#x30ED;&amp;#x30FC;&amp;#x30AB;&amp;#x30EB;&amp;#x3067;&amp;#x30C6;&amp;#x30B9;&amp;#x30C8;&amp;#x3068;&amp;#x4FEE;&amp;#x6B63;&amp;#x3092;&amp;#x7E70;&amp;#x308A;&amp;#x8FD4;&amp;#x3055;&amp;#x305B;&amp;#x3066;&amp;#x307F;&amp;#x305F; | DevelopersIO</a></h3><p>AWS Emulator を発表。Linux は RPM/Debian パッケージ、macOS・Windows は Dockerfile からビルドしコンテナで動かす。既定で 127.0.0.1:9297 で HTTPS を提供。Claude Code にローカルでテストと修正を繰り返させ実 AWS と比較。</p><p class="src">hatena_it — <a href="https://dev.classmethod.jp/articles/20261112-aws-emulator/" rel="noopener nofollow">https://dev.classmethod.jp/articles/20261112-aws-emulator/</a></p></article><h2>ビジネス・事例（2件）</h2><article><h3><a href="https://www.reddit.com/r/SideProject/comments/1xq34yc/i_asked_claude_code_to_build_whatever_it_wanted/" rel="noopener nofollow">I asked Claude Code to build whatever it wanted. It came up with a game.</a></h3><p>Claude Code に自由に作らせて生まれたゲーム PULSEBOUND。楽器を武器に敵を避け、音楽は Web Audio でその場で合成する。iOS・Android・Web で無料。</p><p class="src">reddit_sideproject — <a href="https://www.reddit.com/r/SideProject/comments/1xq34yc/i_asked_claude_code_to_build_whatever_it_wanted/" rel="noopener nofollow">https://www.reddit.com/r/SideProject/comments/1xq34yc/i_asked_claude_code_to_build_whatever_it_wanted/</a></p></article><article><h3><a href="https://www.reddit.com/r/SideProject/comments/1xtuacm/my_side_project_is_a_free_opensource_racing_sim/" rel="noopener nofollow">My side project is a free, open-source racing sim that runs in a browser tab</a></h3><p>ブラウザタブで動く無料のレーシングシム OSS、LibreCorsa。500Hz 物理演算、16 コース、WebRTC のオンラインレースに対応。MIT。</p><p class="src">reddit_sideproject — <a href="https://www.reddit.com/r/SideProject/comments/1xtuacm/my_side_project_is_a_free_opensource_racing_sim/" rel="noopener nofollow">https://www.reddit.com/r/SideProject/comments/1xtuacm/my_side_project_is_a_free_opensource_racing_sim/</a></p></article>
+</main>
+
+<section class="status">
+<p>取得状態 — 走査 328件 / 採用 10件</p>
+<p class="failed">取得できなかったソース: show_hn (fetch failed) / webtan (HTTP 403)</p>
+</section>
+
+</body></html>
